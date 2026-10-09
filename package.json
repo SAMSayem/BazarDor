@@ -1,0 +1,38 @@
+{
+  "name": "bazar-dor-nextjs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "বাজার দর — Bangladeshi daily essentials price tracker built with Next.js and Better Auth.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "db:migrate": "npx auth@latest migrate",
+    "db:check": "npx auth@latest check"
+  },
+  "dependencies": {
+    "@better-auth/infra": "^0.4.15",
+    "better-auth": "^1.6.12",
+    "lucide-react": "^0.468.0",
+    "next": "^15.5.4",
+    "pg": "^8.16.3",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-hot-toast": "^2.6.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@tailwindcss/forms": "^0.5.10",
+    "@types/node": "^22.18.6",
+    "@types/pg": "^8.15.5",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.35.0",
+    "eslint-config-next": "^15.5.4",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.9.2"
+  }
+}
