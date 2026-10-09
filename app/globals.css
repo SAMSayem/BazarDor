@@ -121,12 +121,12 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .section-kicker { margin: 0 0 5px; font-family: Arial, sans-serif; font-size: 9px; letter-spacing: 1.55px; line-height: 1.5; color: #9ba397; font-weight: 700; }
 .section-heading-row h2 { display: flex; align-items: center; gap: 9px; margin: 0; font-size: 24px; line-height: 1.35; font-weight: 700; letter-spacing: -.2px; }
 .section-icon { width: 34px; height: 34px; flex: 0 0 34px; display: inline-grid; place-items: center; border-radius: 10px; font-size: 22px; font-weight: 500; }
-.rise-icon { color: #168347; background: #e5f5e6; }
-.fall-icon { color: #cc4545; background: #fff0ec; }
+.rise-icon { color: #cc4545; background: #e5f5e6; }
+.fall-icon { color: #168347; background: #fff0ec; }
 .all-icon { color: #347849; background: #eaf6e8; font-size: 24px; }
 .heading-arrow { font-size: 14px; }
-.heading-arrow.up { color: #168347; }
-.heading-arrow.down { color: #ce4040; }
+.heading-arrow.up { color: #ce4040; }
+.heading-arrow.down {  color: #168347; }
 .section-subtitle { margin: 5px 0 0; font-size: 13px; color: #7b837a; line-height: 1.7; }
 .section-count { padding: 6px 10px; border: 1px solid #e6ebe3; border-radius: 7px; background: #fff; color: #798177; white-space: nowrap; font-size: 11px; }
 .product-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }

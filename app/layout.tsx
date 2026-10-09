@@ -4,6 +4,12 @@ import SiteHeader from "@/components/site-header";
 import SiteFooter from "@/components/site-footer";
 import PriceTicker from "@/components/price-ticker";
 import RouteToast from "@/components/route-toast";
+
+declare module "*.css" {
+  const content: { [className: string]: string };
+  export default content;
+}
+
 import "./globals.css";
 
 export const metadata: Metadata = {

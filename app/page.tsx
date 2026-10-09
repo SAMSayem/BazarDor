@@ -37,8 +37,7 @@ export default async function HomePage() {
           <div className="hero-art-halo" />
           <div className="hero-leaf leaf-one">✳</div><div className="hero-leaf leaf-two">✦</div>
           <div className="hero-art-card"><Image src="/bazar-hero.png" alt="তাজা বাজারের পণ্যে ভরা ঝুড়ি" width={315} height={263} priority /></div>
-          <div className="floating-price floating-price-one"><span>🥬</span><div><strong>সবজির দাম</strong><small>প্রতিদিন হালনাগাদ</small></div><b>↗</b></div>
-          <div className="floating-price floating-price-two"><span>🍚</span><div><strong>চাল ও ডাল</strong><small>একসঙ্গে তুলনা করুন</small></div><b>✓</b></div>
+          
           <div className="hero-bottom-dots" aria-hidden>•••</div>
         </div>
       </section>
@@ -62,11 +61,10 @@ export default async function HomePage() {
       <section className="all-products-section" id="সব-পণ্য">
         <div className="container-width all-products-inner">
           <div className="section-heading-row all-products-heading">
-            <div><p className="section-kicker">YOUR DAILY ESSENTIALS</p><h2><span className="section-icon all-icon">▦</span> সব পণ্য</h2><p className="section-subtitle">পছন্দের বিভাগ বেছে নিন, পণ্যের দাম দেখুন এবং সহজে তুলনা করুন।</p></div>
-            <Link href="/category/chal" className="text-link">বিভাগ দেখুন <ArrowRight size={16} /></Link>
+            <div><h2><span className="section-icon all-icon">▦</span> সব পণ্য</h2></div>
           </div>
           <ProductBrowser products={products} />
-          <div className="browse-hint"><ArrowDown size={16} /> পণ্যের কার্ডে ক্লিক করে বিস্তারিত বাজারদর দেখুন</div>
+        
         </div>
       </section>
     </main>
