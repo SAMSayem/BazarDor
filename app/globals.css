@@ -135,8 +135,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .product-card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; margin-bottom: 12px; }
 .product-emoji-wrap { width: 40px; height: 40px; flex: 0 0 40px; display: grid; place-items: center; border: 1px solid #edf1e9; border-radius: 12px; background: #f7faf4; font-size: 23px; }
 .change-badge { display: inline-flex; align-items: center; justify-content: center; white-space: nowrap; padding: 4px 7px; border-radius: 6px; font-size: 11px; font-weight: 700; line-height: 1.3; }
-.trend-up { color: #168347; background: #eaf7eb; }
-.trend-down { color: #c94040; background: #fff0ee; }
+.trend-up { color: #c94040; background: #eaf7eb; }
+.trend-down { color: #168347; background: #fff0ee; }
 .trend-flat { color: #7c837d; background: #f0f2ef; }
 .product-heading-row { display: flex; align-items: center; gap: 6px; }
 .product-heading-row h3 { margin: 0; font-size: 17px; font-weight: 600; line-height: 1.55; overflow: hidden; text-overflow: ellipsis; }
