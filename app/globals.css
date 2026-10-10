@@ -123,7 +123,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .section-icon { width: 34px; height: 34px; flex: 0 0 34px; display: inline-grid; place-items: center; border-radius: 10px; font-size: 22px; font-weight: 500; }
 .rise-icon { color: #cc4545; background: #e5f5e6; }
 .fall-icon { color: #168347; background: #fff0ec; }
-.all-icon { color: #347849; background: #eaf6e8; font-size: 24px; }
+.all-icon { color: #347849; background: #eaf6e8; font-size: 25px; }
 .heading-arrow { font-size: 14px; }
 .heading-arrow.up { color: #ce4040; }
 .heading-arrow.down {  color: #168347; }
