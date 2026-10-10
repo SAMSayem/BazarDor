@@ -14,8 +14,8 @@ const githubClientSecret = process.env.GITHUB_CLIENT_SECRET;
 
 export const auth = betterAuth({
   ...(pool ? { database: pool } : {}),
-  baseURL: process.env.BETTER_AUTH_URL || "http://localhost:3000",
-  secret: authSecret || "local-development-secret-do-not-use-in-production",
+  baseURL: process.env.BETTER_AUTH_URL || "https://bazar-dor-delta-jet.vercel.app",
+  secret: authSecret || "GagfemEX9/++CGLSreD7mKYEolenhU/znltIcEPpRr0=",
   emailAndPassword: {
     enabled: true,
     minPasswordLength: 8,
