@@ -29,19 +29,7 @@ export default function ProductBrowser({ products, initialCategory = "all" }: { 
 
   return (
     <>
-      <div className="browser-toolbar">
-        <div className="category-filter" role="group" aria-label="বিভাগ অনুযায়ী পণ্য বাছাই">
-          {categoryOptions.map((option) => (
-            <button key={option.slug} onClick={() => setCategory(option.slug)} className={`filter-chip ${category === option.slug ? "selected" : ""}`}>
-              <span>{option.emoji}</span>{option.name}
-            </button>
-          ))}
-        </div>
-        <div className="browser-controls">
-          <label className="search-field"><Search size={16} /><input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="পণ্য খুঁজুন" aria-label="পণ্য খুঁজুন" /></label>
-          <label className="sort-select"><span>সাজান:</span><select value={sortMode} onChange={(event) => setSortMode(event.target.value as SortMode)} aria-label="পণ্য সাজান"><option value="default">ডিফল্ট</option><option value="low">দাম: কম থেকে বেশি</option><option value="high">দাম: বেশি থেকে কম</option></select><ChevronDown size={15} /></label>
-        </div>
-      </div>
+     
       <p className="result-count">মোট {formatBengaliNumber(visibleProducts.length)}টি পণ্য দেখানো হচ্ছে</p>
       {visibleProducts.length ? (
         <div className="product-grid">{visibleProducts.map((product) => <ProductCard product={product} key={`${product.id}-${product.slug}`} />)}</div>
