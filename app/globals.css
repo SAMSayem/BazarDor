@@ -154,7 +154,6 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .all-products-heading { align-items: center; margin-bottom: 20px; }
 .text-link { display: inline-flex; align-items: center; gap: 6px; flex: 0 0 auto; color: var(--green); font-size: 13px; font-weight: 600; }
 .text-link:hover { color: var(--green-dark); }
-.category-filter { display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }
 .filter-chip { display: inline-flex; align-items: center; justify-content: center; gap: 5px; min-height: 31px; padding: 5px 10px; border: 1px solid transparent; border-radius: 7px; background: transparent; color: #687168; font-size: 12px; cursor: pointer; white-space: nowrap; }
 .filter-chip span { font-size: 13px; }
 .filter-chip:hover { background: #f5f9f2; color: var(--green-dark); }
